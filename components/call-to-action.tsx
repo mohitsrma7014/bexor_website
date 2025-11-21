@@ -8,96 +8,122 @@ export function CallToAction() {
     <section
       id="contact"
       className="
-        py-20 md:py-32 
-        bg-gradient-to-r from-primary/10 to-secondary/10 
-        border-y border-border 
-        relative overflow-hidden
+        relative overflow-hidden mb-16
       "
     >
-      {/* Subtle glow effect */}
-      <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent pointer-events-none" />
+      <div
+          className="
+            w-full h-[1px] mt-28 mb-20 
+            bg-gradient-to-r 
+            from-transparent via-white/30 to-transparent
+          "
+        ></div>
 
-      <div className="container mx-auto text-center relative">
+      {/* Soft Glow */}
+      <div className="absolute " />
+
+      <div className="container mx-auto p-8 rounded-2xl text-center cursor-pointer group
+                  bg-white/10 backdrop-blur-[2px]
+                  border border-white/20
+                  shadow-[0_0_25px_rgba(255,255,255,0.08)]
+                   max-w-7xl">
+        
         {/* TITLE */}
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-          Ready to Transform Your{" "}
-          <span className="text-primary">Manufacturing Business?</span>
+          Let’s Build Your{" "}
+          <span className="text-primary">Next Manufacturing Solution</span>
         </h2>
 
         {/* SUBTEXT */}
         <p className="text-muted-foreground max-w-2xl mx-auto text-lg mb-10">
-          Let’s discuss your challenges and build a custom solution that drives
-          efficiency, automation, and real business results.
+          Whether you're improving an existing workflow or starting from scratch,
+          we help you design practical, efficient, and scalable digital solutions
+          tailored for real manufacturing needs.
         </p>
 
         {/* BUTTONS */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="text-base">
-            Schedule a Consultation
+          <Button
+            size="lg"
+            className="text-base"
+            onClick={() => {
+              const section = document.getElementById("contact-us");
+              section?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            Book a Free Consultation
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
 
-          <Button size="lg" variant="outline" className="text-base">
-            View Case Studies
+          <Button
+            size="lg"
+            variant="outline"
+            className="text-base"
+            onClick={() => {
+              const section = document.getElementById("portfolio");
+              section?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            Explore Our Work
           </Button>
         </div>
 
-        {/* STATS */}
+        {/* REALISTIC STARTUP STATS */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           <div className="p-4 rounded-lg">
-            <div className="text-3xl font-bold text-primary mb-2">50+</div>
+            <div className="text-3xl font-bold text-primary mb-2">Growing</div>
             <p className="text-muted-foreground text-sm">
-              Manufacturing Partners
+              Onboarding new manufacturing clients every month
             </p>
           </div>
 
           <div className="p-4 rounded-lg">
-            <div className="text-3xl font-bold text-secondary mb-2">100+</div>
+            <div className="text-3xl font-bold text-secondary mb-2">Reliable</div>
             <p className="text-muted-foreground text-sm">
-              Successful Projects Delivered
+              Focused on long-term partnerships, not one-time projects
             </p>
           </div>
 
           <div className="p-4 rounded-lg">
-            <div className="text-3xl font-bold text-primary mb-2">5+ Years</div>
+            <div className="text-3xl font-bold text-primary mb-2">Specialized</div>
             <p className="text-muted-foreground text-sm">
-              Industry-Focused Expertise
+              Tailored solutions built only for industrial & manufacturing teams
             </p>
           </div>
         </div>
 
-        {/* EXTRA SECTION (NEWLY ADDED) */}
+        {/* EXTRA HIGHLIGHTS */}
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           <div className="bg-card p-6 border border-border rounded-xl hover:border-primary transition-all">
             <Factory className="w-8 h-8 text-primary mb-4" />
             <h4 className="text-lg font-semibold text-foreground mb-2">
-              Industry Driven
+              Built for Real Factories
             </h4>
             <p className="text-muted-foreground text-sm">
-              Solutions tailored specifically for manufacturing, machining, and
-              fabrication industries.
+              We work directly with manufacturing teams to solve practical,
+              everyday workflow and production challenges.
             </p>
           </div>
 
           <div className="bg-card p-6 border border-border rounded-xl hover:border-primary transition-all">
             <Gauge className="w-8 h-8 text-primary mb-4" />
             <h4 className="text-lg font-semibold text-foreground mb-2">
-              Performance Focused
+              Focus on Efficiency
             </h4>
             <p className="text-muted-foreground text-sm">
-              High-speed dashboards, real-time tracking, and optimized workflows
-              built for efficiency.
+              We optimize processes with automation, dashboards, and simple,
+              reliable tools that teams love using.
             </p>
           </div>
 
           <div className="bg-card p-6 border border-border rounded-xl hover:border-primary transition-all">
             <Cpu className="w-8 h-8 text-primary mb-4" />
             <h4 className="text-lg font-semibold text-foreground mb-2">
-              Future Ready
+              Technology That Scales
             </h4>
             <p className="text-muted-foreground text-sm">
-              AI, ML, automation, and scalable cloud systems designed for the
-              next generation of factories.
+              From basic tracking systems to AI-powered analytics — we build for
+              the present and prepare for the future.
             </p>
           </div>
         </div>

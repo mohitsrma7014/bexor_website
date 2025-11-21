@@ -86,16 +86,15 @@ export function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="py-20 bg-gradient-to-b from-background/70 via-background/60 to-background/70 relative z-10"
+      className=" bg-gradient-to-b  relative z-10"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto p-8 rounded-2xl text-left cursor-pointer group
+                  bg-white/10 backdrop-blur-[2px]
+                  border border-white/20
+                  shadow-[0_0_25px_rgba(255,255,255,0.08)]
+                   max-w-7xl">
         <div className="text-center mb-16">
-          <h1 className="font-light font-bold 
-            text-center  px-6 py-4 tracking-widest
-              bg-white/10 backdrop-blur-xl 
-              border border-white/20
-              rounded-full shadow-[0_0_25px_rgba(255,255,255,0.12)] text-2xl md:text-2xl font-bold mb-6 text-white relative z-10 mb-16">PORTFOLIO</h1>
-
+         
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Our <span className="text-primary">Work Showcase</span>
           </h2>
@@ -150,7 +149,7 @@ export function Portfolio() {
             onClick={() => setActive(null)}
           >
             <div
-              className="bg-card rounded-xl p-8 max-w-lg w-full border border-border relative"
+              className="bg-black rounded-xl p-8 max-w-lg w-full border border-border relative"
               onClick={(e) => e.stopPropagation()}
             >
               <button

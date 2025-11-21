@@ -68,12 +68,12 @@ export function Footer() {
             <ul className="space-y-4 text-sm text-foreground/70">
               <li className="flex items-start gap-3">
                 <Mail className="w-4 h-4 mt-0.5 text-primary" />
-                support@yourcompany.com
+                mohitsharma@bexor.in
               </li>
 
               <li className="flex items-start gap-3">
                 <Phone className="w-4 h-4 mt-0.5 text-primary" />
-                +91 98765 43210
+                +91 70140 28949
               </li>
 
               <li className="flex items-start gap-3">

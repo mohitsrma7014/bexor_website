@@ -30,11 +30,11 @@ export default function ContactUs() {
       "
     >
       <div className="container mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-6">
-          Let's Connect
+        <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          Let's <span className="text-primary">Connect</span>
         </h2>
 
-        <p className="text-foreground/70 text-center max-w-2xl mx-auto mb-14 text-lg">
+        <p className="text-muted-foreground max-w-2xl mx-auto">
           Have questions, ideas, or a project in mind? We're here to help.  
           Reach out and we’ll get back to you shortly.
         </p>
@@ -52,18 +52,18 @@ export default function ContactUs() {
             <div className="space-y-6">
               <div className="flex items-center gap-4">
                 <Phone className="w-6 h-6 text-primary" />
-                <p className="text-foreground/80">+91 98765 43210</p>
+                <p className="text-foreground/80">+91 70140 28949</p>
               </div>
 
               <div className="flex items-center gap-4">
                 <Mail className="w-6 h-6 text-primary" />
-                <p className="text-foreground/80">contact@yourcompany.com</p>
+                <p className="text-foreground/80">mohitsharma@bexor.in</p>
               </div>
 
               <div className="flex items-center gap-4">
                 <MapPin className="w-6 h-6 text-primary" />
                 <p className="text-foreground/80">
-                  Mumbai, Maharashtra, India
+                  Ramgarh Alwar, Rajasthan(India, 301026)
                 </p>
               </div>
             </div>
@@ -71,7 +71,7 @@ export default function ContactUs() {
             <div className="mt-10">
               <iframe
                 className="rounded-xl border border-border w-full h-64"
-                src="https://maps.google.com/maps?q=Mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+src="https://maps.google.com/maps?q=Ramgarh%20Alwar%20Rajasthan%20301026&t=&z=13&ie=UTF8&iwloc=&output=embed"
               ></iframe>
             </div>
           </div>

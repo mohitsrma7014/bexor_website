@@ -79,9 +79,17 @@ export function About() {
     <section
       id="about"
       className="
-       py-20 bg-gradient-to-b from-background/70 via-background/60 to-background/70 relative z-10
+       mb-16  relative z-10
       "
     >
+      <div
+          className="
+            w-full h-[1px] mt-28 mb-20 
+            bg-gradient-to-r 
+            from-transparent via-white/30 to-transparent
+          "
+        ></div>
+
       <div className="container mx-auto relative">
         {/* HEADER */}
         <div className="text-center">

@@ -73,16 +73,11 @@ export function Services() {
   ];
 
   return (
-    <section id="services" className=" py-20 bg-gradient-to-b from-background/70 via-background/60 to-background/70 relative z-10">
+    <section id="services" className="mb-16 relative z-10">
       <div className="container mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="font-light font-bold 
-            text-center  px-6 py-4 tracking-widest
-              bg-white/10 backdrop-blur-xl 
-              border border-white/20
-              rounded-full shadow-[0_0_25px_rgba(255,255,255,0.12)] text-2xl md:text-2xl font-bold mb-6 text-white relative z-10 mb-16">OUR SERVICES</h1>
-
+          
           <h2 className="text-4xl md:text-3xl mb-6 text-white relative z-10">
             Comprehensive{" "}
             <span className="text-primary">Manufacturing Solutions</span>
