@@ -50,29 +50,12 @@ export function About() {
 
   const teamMembers = [
     {
-      name: "Alex Chen",
+      name: "Mohit Sharma",
       role: "Founder & CEO",
       expertise: "Industrial AI, Enterprise Systems",
       avatar: "👨‍💼",
     },
-    {
-      name: "Dr. Sarah Mitchell",
-      role: "CTO",
-      expertise: "Machine Learning, Cloud Architecture",
-      avatar: "👩‍🔬",
-    },
-    {
-      name: "Marcus Rodriguez",
-      role: "Head of Engineering",
-      expertise: "Manufacturing Systems, IoT",
-      avatar: "👨‍🔧",
-    },
-    {
-      name: "Elena Petrova",
-      role: "Product Lead",
-      expertise: "UX Research, Industrial Design",
-      avatar: "👩‍🎨",
-    },
+   
   ];
 
   return (

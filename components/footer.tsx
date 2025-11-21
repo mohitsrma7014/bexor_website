@@ -78,7 +78,7 @@ export function Footer() {
 
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary" />
-                Mumbai, Maharashtra, India
+                Ramgarh Alwar, Rajasthan(India, 301026)
               </li>
             </ul>
 
