@@ -74,6 +74,13 @@ export function Services() {
 
   return (
     <section id="services" className="mb-16 relative z-10">
+       <div
+          className="
+            w-full h-[1px] mt-28 mb-20 
+            bg-gradient-to-r 
+            from-transparent via-white/30 to-transparent
+          "
+        ></div>
       <div className="container mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
