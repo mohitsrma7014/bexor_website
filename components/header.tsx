@@ -7,7 +7,8 @@ import { Logo } from "./logo"
 import { MobileMenu } from "./mobile-menu"
 
 export const Header = () => {
-  const navItems = ["Home", "About", "Services", "Reviews", "Portfolio", "Contact"]
+  const navItems = ["Home", "About", "Services", "Contact"]
+  //  "Reviews","Portfolio", 
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     const href = e.currentTarget.getAttribute("href")

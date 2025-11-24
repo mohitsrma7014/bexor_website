@@ -15,7 +15,8 @@ useEffect(() => {
   }, 3000); // 3 seconds delay
 
   return () => clearInterval(interval);
-}, []);
+  }, []);
+
   const teamMembers = [
     {
       name: "Mohit Sharma",
@@ -23,18 +24,7 @@ useEffect(() => {
       expertise: "Industrial AI • Manufacturing Systems",
       image: "/placeholder.svg",
     },
-    {
-      name: "Member 2",
-      role: "Tech Lead",
-      expertise: "Automation • Cloud Systems",
-      image: "/placeholder.svg",
-    },
-    {
-      name: "Member 3",
-      role: "Product Engineer",
-      expertise: "Analytics • Process Optimization",
-      image: "/placeholder.svg",
-    },
+   
   ];
 
   return (

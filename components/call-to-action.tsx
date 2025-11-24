@@ -55,7 +55,7 @@ export function CallToAction() {
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
 
-          <Button
+          {/* <Button
             size="lg"
             variant="outline"
             className="text-base"
@@ -65,7 +65,7 @@ export function CallToAction() {
             }}
           >
             Explore Our Work
-          </Button>
+          </Button> */}
         </div>
 
         {/* REALISTIC STARTUP STATS */}

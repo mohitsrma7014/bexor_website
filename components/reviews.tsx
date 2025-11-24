@@ -6,45 +6,14 @@ import { Star } from "lucide-react";
 export function Reviews() {
   const reviews = [
     {
-      company: "AutoTech Solutions",
-      name: "Vikram Sharma",
-      role: "Operations Director",
+      company: "CAD SET GO PVT. LTD.",
+      name: "Chandresh Gaur",
+      role: "CEO",
       content:
         "Bexor transformed our manufacturing operations completely. Their ERP system reduced our production cycle time by 35% and improved inventory accuracy to 99.8%.",
       rating: 5,
     },
-    {
-      company: "Global Steel Industries",
-      name: "Maria Rodriguez",
-      role: "Plant Manager",
-      content:
-        "The custom web app Bexor built for us streamlined our daily workflows significantly. Support team is responsive and truly understands manufacturing challenges.",
-      rating: 5,
-    },
-    {
-      company: "Precision Electronics Ltd",
-      name: "James Chen",
-      role: "CTO",
-      content:
-        "Their data analytics dashboard gives us real-time visibility into production metrics. The predictive maintenance ML model has saved us thousands in unplanned downtime.",
-      rating: 5,
-    },
-    {
-      company: "Advanced Manufacturing Co",
-      name: "Sarah Johnson",
-      role: "Supply Chain Director",
-      content:
-        "API integrations Bexor implemented connected all our disparate systems seamlessly. Incredible ROI and their team went above and beyond.",
-      rating: 5,
-    },
-    {
-      company: "Quality Components Inc",
-      name: "Rajesh Verma",
-      role: "Manufacturing Engineer",
-      content:
-        "Custom scripts automated our quality checks. Reduced manual inspection time by 60% with improved consistency.",
-      rating: 5,
-    },
+    
   ];
 
   const trackRef = useRef<HTMLDivElement>(null);

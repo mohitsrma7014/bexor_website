@@ -19,7 +19,7 @@ export default function Home() {
       <Services />
       <Reviews />
       <CallToAction />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <ContactUs />
       <Footer />
       <Leva hidden />
